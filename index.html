@@ -1,0 +1,189 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Curriculum Vitae</title>
+  <link rel="preconnect" href="https://fonts.gstatic.com" />
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;700&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/normalize.css@8.0.1/normalize.min.css" />
+  <link rel="stylesheet" href="css/main.css" />
+  <link rel="stylesheet" href="css/navbar.css" />
+  <link rel="stylesheet" href="css/profile.css" />
+  <link rel="stylesheet" href="css/skills.css" />
+  <link rel="stylesheet" href="css/experiences.css" />
+  <link rel="stylesheet" href="css/contact.css" />
+  <script defer src="js/app.js"></script>
+</head>
+<body>
+  <!--MENU-->
+  <header class="topheader">
+    <nav class="topnav">
+      <a href="#" class="logo">
+        <img height="50" width="50" src="/img/foto_carnet.jpg" alt="programador" />
+        <div class="logotype">
+          Inicio<br />
+        </div>
+      </a>
+      <button class="open-menu" aria-label="Abrir menú">
+        <img src="img/hamburger-icon.svg" alt="abrir menú" />
+      </button>
+      <ul class="menu">
+        <button class="close-menu" aria-label="Cerrar menú">
+          <img src="img/close-icon.svg" alt="cerrar menú" />
+        </button>
+        <li><a href="#profile" class="selected">Perfil</a></li>
+        <li><a href="#experience">Experiencia</a></li>
+        <li><a href="#skills">Habilidades</a></li>
+        <li><a href="#contact">Contacto</a></li>
+      </ul>
+    </nav>
+  </header>
+  <!--PERFIL-->
+  <div class="horizontal-padding vertical-padding">
+    <section class="profile" id="profile">
+      <div class="profile-info">
+        <h1 class="profile-title">Hola, soy  <br />Luciano Troval</h1>
+        <p class="profile-details">
+          Ingeniero en sistemas con 4 años de experiencia en gestión de 
+          proyectos. Conocimientos de arquitectura, diseño e infraestructura 
+          de sistemas. Gracias a mi implementación de procesos de trabajo, he 
+          logrado reducir los tiempos de entrega de proyectos en un 10%. 
+          Busco utilizar mis conocimientos para optimizar los procesos de Serf Corp.
+        </p>
+        <button class="profile-btn">Descargar cv</button>
+      </div>
+      <span class="profile-img-section">
+        <img class="profile-img" src="/img/foto_carnet.jpg" alt="ingeniero" />
+        <div class="profile-img-line"></div>
+      </span>
+    </section>
+  </div>
+<!--Experience-->
+  <section class="experiences" id="experience">
+    <img src="/img/pattern.svg" alt="división" class="wave" />
+    <div class="experiences-body">
+      <h2 class="experiences-title">Experiencia</h2>
+      <div class="experiences-grid">
+        <div class="empty"></div>
+        <div class="line"></div>
+        <div class="experience">
+          <div class="experience-date">2020 a la Fecha</div>
+          <div class="experience-company">Grupo Q</div>
+          <div class="experience-position">Jefe de Sistemas y Tecnología</div>
+          <div class="experience-description">
+            Administración de los servidores y bases de datos del país.<br>
+            Administración de los sistemas utilizados por el grupo.<br>
+            Administración del inventario de hardware, software y licencias de los mismos.<br>
+            Compra de equipos e implementación de nuevas tecnologías.
+            Administración de las comunicaciones.
+            Administración del recurso humano.
+            Administración de la red interna..
+            Validar respaldo de información de servers y pc´s.<br>
+            Realizar planes de mantenimiento de equipos y de seguridad de la red.
+            Administración y confección del presupuesto de sistemas del país.
+          </div>
+        </div>
+        <div class="experience experience_left">
+          <div class="experience-date">2017-2020</div>
+          <div class="experience-company">DevoTeam</div>
+          <div class="experience-position">Ingeniero en Sistema</div>
+          <div class="experience-description">
+            Responsable del mantenimiento de la infraestructura de sistemas de la empresa.<br>
+            Llevé a cabo un análisis de riesgos el cual colaboró a recuperar el 80% de la información perdida durante una crisis interna en 2019.
+            A cargo de la instalación y configuración de HW y SW.<br>
+            Realicé actualización de la documentación técnica de forma quincenal, cumpliendo con el 100% de mis fechas de entrega
+          </div>
+        </div>
+        <div class="line"></div>
+        <div class="empty"></div>
+        <div class="empty"></div>
+        <div class="line"></div>
+        <div class="experience">
+          <div class="experience-date">2015-2017</div>
+          <div class="experience-company">Todo Clic</div>
+          <div class="experience-position">Ingeniero en Sistema Jr</div>
+          <div class="experience-description">
+            Apoyé a los ingenieros senior en las labores de instalación y mantenimiento de sistemas.
+            Mantuve un porcentaje de éxito en incidencias nivel 3 del 90%.
+            Escribí una nueva política de backup la cual es usada a nivel nacional.
+            Obtuve un puntaje de 9,1 en mi evaluación de desempeño anual.
+          </div>
+        </div>
+      </div>
+    </div>
+    <img src="/img/pattern.svg" alt="división" class="wave wave_bottom" />
+  </section>
+<!--Skill-->
+  <div class="horizontal-padding vertical-padding">
+    <section class="skills" id="skills">
+      <h2 class="skills-title">Habilidades</h2>
+      <ul class="skills-list">
+        <li class="skills-skill">CSS</li>
+        <li class="skills-skill">HTML</li>
+        <li class="skills-skill">Node.js</li>
+        <li class="skills-skill">React.js</li>
+        <li class="skills-skill">TypeScript</li>
+        <li class="skills-skill">JavaScript</li>
+        <li class="skills-skill">C++</li>
+        <li class="skills-skill">C#</li>
+        <li class="skills-skill">Python</li>
+        <li class="skills-skill">Bash Shell</li>    
+      </ul>
+    </section>
+  </div>
+  <!--Contact-->
+  <div class="horizontal-padiding vertical-padding">
+    <section class="contact" id="contact">
+      <h2 class="contact-title">Contacto</h2>
+      <div class="contact-deails-group">
+        <p class="contact-label">Dirección:</p>
+        <p class="contact-text">Rada Tilly, Argentina</p>
+      </div>
+      <div class="contact-deails-group">
+        <p class="contact-label">Email:</p>
+        <p class="contact-text">argentina_programa@ministerio.com</p>
+      </div>
+      <div class="contact-deails-group">
+        <p class="contact-text">Deje su mensaje</p>
+      </div>
+      <form class="contact-form">
+        <div class="contact-form-group">
+          <label for="name">Nombre</label>
+          <input required type="text" name="name" id="name"/>
+        </div>
+        <div class="contact-form-group">
+          <label for="name">Email</label>
+          <input required type="text" name="email" id="email"/>
+        </div>
+        <div class="contact-form-group">
+          <label for="message">Mensaje</label>
+          <textarea required name="message" id="message" rows="8"></textarea>
+        </div>
+        <button type="submit" class="contact-form-submit">Enviar</button>
+      </form>
+      <nav class="social">
+        <ul class="social-list">
+          <li>
+            <a href="https:/whatsapp.com/">
+              <img src="/img/icons8-whatsapp-48.png" alt="whatsapp"/>
+            </a>
+          </li>
+          <li>
+            <a href="https://twitter.com/">
+              <img src="/img/icons8-twitter-48.png" alt="twitter"/>
+            </a>
+          </li>
+          <li>
+            <a href="https://facebook.com/">
+              <img src="/img/icons8-facebook-nuevo-48.png" alt="facebook"/>
+            </a>
+          </li>
+         
+        </ul>
+      </nav>
+    </section>
+  </div>
+</body>
+</html>
